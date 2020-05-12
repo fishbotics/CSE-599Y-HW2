@@ -15,6 +15,7 @@
 		4E4B21C5246512B600E7B855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4B21C3246512B600E7B855 /* LaunchScreen.storyboard */; };
 		4E4B21D0246512B600E7B855 /* Mobile_Systems_Project_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B21CF246512B600E7B855 /* Mobile_Systems_Project_2Tests.swift */; };
 		4E4B21DB246512B600E7B855 /* Mobile_Systems_Project_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B21DA246512B600E7B855 /* Mobile_Systems_Project_2UITests.swift */; };
+		4E4B21EB24651FEE00E7B855 /* IMUManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B21EA24651FEE00E7B855 /* IMUManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4E4B21D6246512B600E7B855 /* Mobile Systems Project 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Systems Project 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4B21DA246512B600E7B855 /* Mobile_Systems_Project_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Systems_Project_2UITests.swift; sourceTree = "<group>"; };
 		4E4B21DC246512B600E7B855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4B21EA24651FEE00E7B855 /* IMUManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMUManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4E4B21C3246512B600E7B855 /* LaunchScreen.storyboard */,
 				4E4B21C6246512B600E7B855 /* Info.plist */,
 				4E4B21C0246512B600E7B855 /* Preview Content */,
+				4E4B21EA24651FEE00E7B855 /* IMUManager.swift */,
 			);
 			path = "Mobile Systems Project 2";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4B21B9246512AE00E7B855 /* AppDelegate.swift in Sources */,
+				4E4B21EB24651FEE00E7B855 /* IMUManager.swift in Sources */,
 				4E4B21BB246512AE00E7B855 /* SceneDelegate.swift in Sources */,
 				4E4B21BD246512AE00E7B855 /* ContentView.swift in Sources */,
 			);
