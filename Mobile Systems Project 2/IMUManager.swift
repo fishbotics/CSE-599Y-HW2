@@ -148,7 +148,7 @@ final class IMUManager : ObservableObject {
         let x = String(format: "%.2f", attitudeEstimate.axis.x)
         let y = String(format: "%.2f", attitudeEstimate.axis.y)
         let z = String(format: "%.2f", attitudeEstimate.axis.z)
-        let angle  = String(format: "%.2f", attitudeEstimate.angle)
+        let angle  = String(format: "%.2f", 180.0 / Double.pi * attitudeEstimate.angle)
         self.attitude_string = "Axis: (\(x), \(y), \(z))\n Angle: \(angle)"
         if self.printTimer >= PRINT_INTERVAL {
             print("\(attitudeEstimate.angle)")
